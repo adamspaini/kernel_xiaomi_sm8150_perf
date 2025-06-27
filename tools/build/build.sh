@@ -17,7 +17,7 @@ MKDTBOIMG="${kernel_dir}/tc/libufdt/utils/src/mkdtboimg.py"
 DTBO_IMG="${anykernel_dir}/dtbo.img"
 DISPLAY="arch/arm64/boot/dts/qcom/xiaomi/overlay/common/display"
 
-export CONFIG_FILE="vayu_defconfig"
+export CONFIG_FILE="sm8150-perf_defconfig"
 export ARCH="arm64"
 export KBUILD_BUILD_HOST=adams4d13
 export KBUILD_BUILD_USER=arch-linux
